@@ -104,9 +104,7 @@ console.log(valorEmFahrenheit, "°F");
 console.log(valorEmKelvin, "K");
 
 /**
-
 2. Faça um programa que faça 5 perguntas para o usuário (pode ser criativo nesta parte). Imprima-as com as respostas no console da seguinte forma:
-
         `
         	1. Qual o seu endereço?
         	Resposta: Rua ABC, 123
@@ -117,51 +115,37 @@ console.log(valorEmKelvin, "K");
         	.
         	.
         	.
-
 const pergunta1 = "Qual sua cor favorita?";
 const pergunta2 = "Qual seu endereço?";
 const pergunta3 = "Como você está?";
 const pergunta4 = "Ficou preso no elevador hoje?";
 const pergunta5 = "Já viu Ricky And Morty?";
-
 const resposta1 = prompt(pergunta1);
 const resposta2 = prompt(pergunta2);
 const resposta3 = prompt(pergunta3);
 const resposta4 = prompt(pergunta4);
 const resposta5 = prompt(pergunta5);
-
 console.log(pergunta1);
 console.log("Respota: ", resposta1);
 console.log();
-
 console.log(pergunta2);
 console.log("Respota: ", resposta2);
 console.log();
-
 console.log(pergunta3);
 console.log("Respota: ", resposta3);
 console.log();
-
 console.log(pergunta4);
 console.log("Respota: ", resposta4);
 console.log();
-
 console.log(pergunta5);
 console.log("Respota: ", resposta5);
 console.log();
-
-
 3. Quilowatt-hora é uma unidade de energia; e é muito utilizada para se determinar o consumo de energia elétrica em residências. Sabe-se que o quilowatt-hora de energia custa um quinto do salário mínimo. Faça um programa que receba o valor do salário mínimo e a quantidade de quilowatts consumida por uma residência.
-
     a. Calcule e mostre o valor de cada quilowatt-hora, considerando o atual valor do salário mínimo;
-
 const salarioMinimo = 998;
 const valorDoQuillowattHora = salarioMinimo / 5;
 console.log(valorDoQuillowattHora);
-
-
     b. Calcule e mostre o valor a ser pago por uma residência que consuma 280 quilowatt-hora;
-
 /*B*/
 let valorParaPagar = valorDoQuillowattHora * 280;
 console.log(valorParaPagar);

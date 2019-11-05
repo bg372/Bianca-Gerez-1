@@ -31,4 +31,3 @@ if (ponto1 === ponto2){
 } else {
   console.log("O jogo acabou!")
 }
-

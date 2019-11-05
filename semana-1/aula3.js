@@ -1,6 +1,5 @@
 /* 
 **Exercícios de interpretação de código**
-
 1. Leia o código abaixo:
 *//*
         const respostaDoUsuario = prompt("Digite o número que você quer testar?")
@@ -67,36 +66,26 @@ R: O codigo acima mostra o valor da fruta inserida pelo usuario
         }
         
         console.log(mensagem)
-
 /*    Considere um usuário que digita os números 3 e 4 respectivamente. Qual será a mensagem do terminal? Haverá algum erro? Justifique usando os conceitos de bloco ou escopo.
 R: Sera mostrado uma mensagem de erro informando que mensagem não foi definido. A variavel mensagem foi definida dentro do bloco if, desta forma, ele não pode ser acessado fora dentro deste escopo, por essa razão o mesmo não funciona.
 **************
-
 **Exercícios de escrita de código**
-
 1. Nos exercícios abaixo, será necessário que você trabalhe com a comparação de números. Leia abaixo:
-
     a. Crie um programa que receba dois números do usuário através do `prompt` e imprima-os na ordem **decrescente**. O que acontece com o seu programa se os 2 números forem iguais?
-
 const primeiroNumero = Number(prompt("Digite o primeiro numero"))
 const segundoNumero = Number(prompt("Digite o segundo numero"))
-
 if (primeiroNumero > segundoNumero) {
    console.log (primeiroNumero , segundoNumero)
 } 
 if (primeiroNumero < segundoNumero) {
    console.log (segundoNumero  , primeiroNumero)
 }
-
 R: Se os 2 numeros forem iguais, não e mostrada nenhum numero pois não foi definido a mensagem em caso de igualdade.
-
     b. Adapte o programa para que o usuário digite 3 números. Ainda os imprima na ordem **decrescente**. O que acontece como seu programa se os 3 números forem iguais?
 *//*
-
 const primeiroNumero = Number(prompt("Digite o primeiro numero"))
 const segundoNumero = Number(prompt("Digite o segundo numero"))
 const terceiroNumero = Number(prompt("Digite o terceiro numero"))
-
 if (primeiroNumero > segundoNumero && segundoNumero > terceiroNumero) {
    console.log (primeiroNumero , segundoNumero , terceiroNumero)
 } 
@@ -133,20 +122,12 @@ console.log (terceiroNumero , segundoNumero , primeiroNumero)
 else (terceiroNumero > segundoNumero && segundoNumero  > primeiroNumero){
 console.log (terceiroNumero , segundoNumero , primeiroNumero)
 }
-
-
 /*R: Os três aparecem.
-
     c. Agora, impeça que o usuário digite 3 números iguais. Caso todos sejam iguais, mostre um aviso ao usuário indicando que ele deve, ao menos, inserir um número diferente.
-
-
-
 2. 
 ************RESPOSTA**********
-
     a. Escreva o diagrama esquemático que melhor represente a árvore condicional do exercício em si.
 Diagrama:
-
 Vertebrado ou invertebrado
     |              
 possui pelos / não possui pelos
@@ -158,7 +139,6 @@ sim          possui penas - não > e animal terrestre ? - não > peixe
   sim     não      ave                    reptil
    |       |
    sh      m 
-
 sh*ser humano | m*mamifero */
 
 
@@ -192,17 +172,11 @@ console.log("Reptil")
     - Etapa do jogo: SF indica semi-final; DT indica decisão de terceiro lugar; e FI indica final
     - Categoria: pode ser as opções 1, 2, 3 ou 4;
     - Quantidade de ingressos
-
     O seu sistema deve solicitar estas informações ao usuário, através do `prompt` . Além disso, ele deve imprimir tudo isso, junto com o valor de cada ingresso e o valor total que o usuário tem que pagar (ou seja, o valor unitário do ingresso multiplicado pela quantidade). Abaixo, há a tabela com os valores de cada ingresso e exemplos de execução do programa. Lembrando que o valor de jogos internacionais é o mesmo de jogos domésticos, mas seus preços devem ser dados em dólar (considerar a cotação de U$1,00 = R$4,10)
-
     **Tabela de preços**
-
     [](https://www.notion.so/41c21f657caa4b62a828bec3b5c6afd7#db1623df0a3f47dea1bf168f83a8373a)
-
     **Exemplos de saídas**
-
     Jogo nacional
-
         ---Dados da compra--- 
         Nome do cliente:  Soter Padua 
         Tipo do jogo:  Nacional 
@@ -213,9 +187,7 @@ console.log("Reptil")
         Valor do ingresso:  R$ 1980
         Valor total:  R$ 19800
         ?
-
     Jogo internacional
-
         ---Dados da compra--- 
         Nome do cliente:  Soter Padua 
         Tipo do jogo:  Internacional 

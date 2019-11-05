@@ -1,4 +1,4 @@
- 40  cd Desktop
+40  cd Desktop
    41  cd CURSO
    42  ls
    43  cd aula1
