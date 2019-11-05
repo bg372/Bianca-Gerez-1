@@ -26,3 +26,4 @@ git pull origin nomedabranch: Atualiza a branch com os dados alterados remotamen
 git merge: anexa ramificação ao master
 
 git rebase: move ramificação para o master
+
