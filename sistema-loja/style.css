@@ -1,0 +1,98 @@
+
+body{
+    height: 100%;
+    width: 100%;
+    background: #95f4a0;
+    text-align: center;
+  }
+  h1{
+    font-family: 'Leckerli One', cursive;
+    font-size: 80px;
+    color: #28412a;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #28412a;
+    overflow: hidden;
+    text-align: center;
+    font-size: 25px;
+  }
+  li{
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+
+  }
+  li a:hover {
+    background-color: #111111;
+  }
+  footer{
+    text-align: left;
+    background-color: #28412a;
+    display: flex;
+    justify-content: flex-start;
+    color: #ffffff;
+  letter-spacing: 2px;
+  font-size: 12px;
+  }
+.contato{
+  max-width: 500px;
+  margin: 0 auto;
+}
+.bemvindo{
+  max-width: 500px;
+  margin: 0 auto;
+}
+.creditos{
+  max-width: 500px;
+  margin: 0 auto;
+}
+ .produtos{
+      background-color: #1fc733 ;
+      font-size: 30px;
+      font-family: 'Roboto', sans-serif;
+      color: #ffffff;
+ }
+ .imagetempero{
+   background-image: url('https://i.ibb.co/5FhQdnc/temperos-caseiros-2.jpg ');
+   width: 100%;
+background-repeat: no-repeat; 
+background-size: cover;
+padding-bottom: 30px;
+padding-top: 100px;
+position: relative;
+ }
+ .centro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+color: #ffffff;
+letter-spacing: 2px;
+text-shadow: 3px 3px #0a0909;
+ }
+ #estoque{
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid #48e344;
+  padding: 8px;
+ }
+ #estoque th{
+background-color: #1fc733;
+font-size: 20px;
+border: 2px solid #48e344;
+  padding: 8px;
+  color: #ffffff;
+ }
+ #estoque tr, td{
+  border: 2px solid #48e344;
+  padding: 8px;
+ }
