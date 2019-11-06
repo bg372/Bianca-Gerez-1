@@ -1,0 +1,28 @@
+Comandos git:
+
+git clone link : É um comando que clona um repositorio de remoto para nossa maquina
+
+git status: Mostra arquivos criados, modificados e removidos
+
+git add : envia os arquivos para a stagin area
+(podemos adicionar todos com --all)
+
+git commit -m "msg" : demarca as alterações feitas
+
+git log: histórico de commits
+
+git branch: cria uma ramificação 
+
+git brach nome: cria uma ramificação com o nome escolhido
+
+git checkout nome: acessa a ramificação
+
+git checkout -b nome: cria e acessa ramificação
+
+git push origin nomedabranch: Envia suas alterações para o dispositivo remoto
+
+git pull origin nomedabranch: Atualiza a branch com os dados alterados remotamente
+
+git merge: anexa ramificação ao master
+
+git rebase: move ramificação para o master
