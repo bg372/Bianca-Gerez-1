@@ -6,7 +6,6 @@
 
 * {
     margin: 0;
-    padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -68,17 +67,29 @@ div img {
   *  ESTILOS HOME 
   *
   **/
+
 #texto-do-container{
     position:relative;
-    top: 200px;
+    top: 150px;
+    display: inline-block;
+    max-width: 300px;
+}
+#texto-do-container>p {
+    display: inline-block;
+    max-width: 210px;
+}
+#texto-do-container>h3{
+    max-width: 300px;
+    display: inline-block;
 }
 #container-de-descricao {
     background-color: #2274a5;
     color: white;
 }
 #container-de-descricao>ol {
-    padding: 15px 0px;
+    padding: 20px 20px;
     margin-top: 100px;
+
 }
 
 #container-para-comprar {
