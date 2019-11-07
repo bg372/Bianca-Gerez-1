@@ -44,7 +44,7 @@ div>p:first-child {
     font-size: 20px;
     color: white;
     position:relative;
-    top: 150px;
+    top: 200px;
 }
 
 .botao-amarelo:hover {
@@ -107,6 +107,8 @@ div>p:first-child {
     color: #c44f00;
     padding: 100px 0;
     font-size: 60px;
+    position: relative;
+    top: 100px;
 }
 
 
@@ -169,6 +171,7 @@ td button:active {
     border-radius: 5px;
     font-size: 10px;
     color: black;
+    margin-top: 150px;
 }
 
 #back-button:hover {
