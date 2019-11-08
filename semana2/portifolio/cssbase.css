@@ -1,0 +1,120 @@
+/* CSS GERAL */
+* {
+    margin: 0;
+}
+.container {
+    text-align: center;
+}
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #AA78A6;
+    overflow: hidden;
+    text-align: center;
+    font-size: 25px;
+  }
+  .menu>li{
+    float: left;
+  }
+  .menu>li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+
+  }
+  li a:hover {
+    background-color: #7A5677;
+  }
+/*ESTILO HOME*/
+/*1º CONTAINER*/
+#container-apresentacao{
+    background-color: #E244B8;
+    color: white;
+}
+/*2º CONTAINER*/
+.projetos{
+    display: flex;
+    text-align: center;
+    margin: auto;
+
+}
+#container-projetos-box{
+    background-color: #FFFFFF;
+    color: black;  
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.boxes1 {
+    background-color: #D6B3D0;
+    width: 150px;
+    height: 20px;
+    padding: 50px;
+    margin: auto;
+    margin-right: 50px;
+    color: black;
+     }
+  .boxes1:hover {
+    background-color: #5697FF;
+    border: 3px solid #2153B7;
+    color: #000000;
+    cursor:crosshair;
+    -webkit-transition: 0.5s;
+     }
+     .boxes2 {
+        background-color: #D6B3D0;
+        width: 150px;
+        height: 20px;
+        padding: 50px;
+        margin: auto;
+        margin-right: 50px;
+        color: black;
+         }
+      .boxes2:hover {
+        background-color: #5697FF;
+        border: 3px solid #2153B7;
+        color: #000000;
+        cursor:crosshair;
+        -webkit-transition: 0.5s;
+         }
+         .boxes3 {
+            background-color: #D6B3D0;
+            width: 150px;
+            height: 20px;
+            padding: 50px;
+            margin: auto;
+            margin-right: 50px;
+            color: black;
+             }
+          .boxes3:hover {
+            background-color: #5697FF;
+            border: 3px solid #2153B7;
+            color: #000000;
+            cursor:crosshair;
+            -webkit-transition: 0.5s;
+             }
+
+/*3º CONTAINER*/
+footer{
+text-align: left;
+background-color: #7844E3;
+display: flex;
+justify-content: flex-start;
+color: #ffffff;
+letter-spacing: 2px;
+font-size: 12px;
+}
+.contato{
+  max-width: 500px;
+  margin: 0 auto;
+}
+.bemvindo{
+  max-width: 500px;
+  margin: 0 auto;
+}
+.creditos{
+  max-width: 500px;
+  margin: 0 auto;
+}
