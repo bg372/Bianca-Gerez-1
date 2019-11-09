@@ -31,10 +31,13 @@
   li a:hover {
     background-color: #7A5677;
   }
-  a ,a:hover, a:focus, a:active{
+  a , a:hover, a:focus:active{
     text-align: center;
     text-decoration: none;
     background: transparent;
+    box-shadow: none;
+    outline: 0;
+    box-shadow: none;
   }
 /*ESTILO HOME*/
 /*1º CONTAINER*/
@@ -68,6 +71,7 @@
 .botaosaibamais:hover,.botaosaibamais:focus,.botaosaibamais:active{
     border: 3px solid #4D02E2;
     -webkit-transition: 0.2s;
+    transition:  0.2s;
 }
 
 /*2º CONTAINER*/
@@ -86,9 +90,12 @@
 .projetos{
     display: flex;
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
     font-family: 'PT Sans', sans-serif;
     font-size: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
 #container-projetos-box{
     background-color: #FFFFFF;
@@ -104,7 +111,6 @@
     padding: 50px;
     margin: auto;
     border: 3px solid white;
-    margin-right: 50px;
     color: black;
      }
   .boxes1:hover {
@@ -112,6 +118,7 @@
     color: #000000;
     cursor:crosshair;
     -webkit-transition: 0.2s;
+    transition:  0.2s;
      }
      .boxes2 {
         background-color: #D6B3D0;
@@ -120,7 +127,6 @@
         padding: 50px;
         margin: auto;
         border: 3px solid white;
-        margin-right: 50px;
         color: black;
          }
       .boxes2:hover {
@@ -128,6 +134,7 @@
         color: #000000;
         cursor:crosshair;
         -webkit-transition: 0.2s;
+        transition:  0.2s;
          }
          .boxes3 {
             background-color: #D6B3D0;
@@ -136,7 +143,6 @@
             padding: 50px;
             margin: auto;
             border: 3px solid white;
-            margin-right: 50px;
             color: black;
              }
           .boxes3:hover {
@@ -144,6 +150,7 @@
             color: #000000;
             cursor:crosshair;
             -webkit-transition: 0.2s;
+            transition:  0.2s;
              }
 
 /*3º CONTAINER*/
@@ -156,6 +163,9 @@ color: #ffffff;
 letter-spacing: 2px;
 font-size: 12px;
 font-family: 'PT Sans', sans-serif; 
+position:sticky;
+bottom:0;
+width:100%;
 }
 .contato{
   max-width: 500px;
