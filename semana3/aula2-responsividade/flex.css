@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.header{
+    background-color: maroon;
+    padding-bottom: 100px;
+}
+.containerprincipal{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column 2 ;
+    justify-content: center;
+}
+.item1{
+    background-color: blue;
+    max-width: 100%;
+    width: 400px;
+    height: 200px;
+    margin:20px;
+}
+.item2{
+    background-color: yellow;
+    width: 400px;
+    height: 200px;
+    margin:20px;
+}
+.item3{
+    background-color: green;
+    width: 400px;
+    height: 200px;
+    margin:20px;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column 2 ;
+    justify-content: center;
+    }
+    .itemA{
+    background-color: black;
+    color: white;
+    width: 600px;
+    height: 400px;
+    margin: 20px;
+    }
+    .itemB{
+        background-color: black;
+        color: white;
+        width: 600px;
+        height: 400px;
+        margin: 20px;
+    }
+    .container3{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column 2 ;
+        justify-content: center;
+        }
+        .item22{
+            border: 1px solid; 
+            width: 400px;
+            height: 200px;  
+            align-self: center;
+            margin: 20px;
+        }
+ @media screen and (min-device-width : 421px) and (max-device-width : 800px) {
+    .containerprincipal{
+    display: block;
+     width: auto;
+     align-self: stretch;
+    }
+    .container2{
+    display: block;
+     width: auto;
+     align-self: stretch;
+    }
+    .container3{
+    display: block;
+     width: auto; 
+     align-self: stretch;
+    }
+}

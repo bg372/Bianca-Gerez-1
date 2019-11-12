@@ -105,7 +105,7 @@ grid-row-gap: 30px;
         .itemA{
         background-color: black;
         color: white;
-        max-width: auto;
+        max-width: 400px;
         height: 100px;
         justify-items: start;
         align-items: start;
@@ -113,7 +113,7 @@ grid-row-gap: 30px;
         .itemB{
             background-color: black;
             color: white;
-            max-width: auto;
+            max-width: 400px;
             height: 100px;
             justify-items: start;
             align-items: start;
