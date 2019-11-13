@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.header{
+    background-color: maroon;
+    padding-bottom: 100px;
+}
+.containerprincipal{
+display: grid;
+grid-template-rows: 1fr 1fr ;
+grid-template-columns: 1fr 1fr 1fr;
+grid-row-gap: 30px;
+grid-column-gap: 30px;
+justify-items: center;
+align-items: center;
+padding-top: 50px;
+}
+.item1{
+    background-color: blue;
+    max-width: 400px;
+    min-width: 400px;
+    height: 200px;
+}
+.item2{
+    background-color: yellow;
+    width: 400px;
+    height: 200px;
+}
+.item3{
+    background-color: green;
+    width: 400px;
+    height: 200px;
+}
+.container2{
+display: grid;
+grid-template-columns: 1fr 1fr ;
+justify-items: center;
+align-items: center;
+padding-top: 50px;
+grid-column-gap: 30px;
+grid-row-gap: 30px;
+}
+.itemA{
+background-color: black;
+color: white;
+width: 600px;
+height: 400px;
+}
+.itemB{
+    background-color: black;
+    color: white;
+    width: 600px;
+    height: 400px;
+}
+.container3{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+justify-items: center;
+align-items: center;
+padding-top: 50px; 
+grid-column-gap: 30px;
+grid-row-gap: 30px;
+}
+.item22{
+    border: 1px solid; 
+    width: 400px;
+    height: 200px;  
+    align-self: center;
+}
+
+@media screen and (max-width: 420px) {
+    .containerprincipal {
+        display: grid;
+        grid-template-columns: 1fr;
+        float: left;
+    }
+    .item1 {
+        max-width: auto;
+        height: 100px;
+        display: grid;
+        justify-items: start;
+        align-items: start;
+    }
+    .item2 {
+        max-width: auto;
+        height: 100px;
+        display: grid;
+        justify-items: start;
+        align-items: start;
+    }
+    .item3 {
+        max-width: auto;
+        height: 100px;
+        display: grid;
+        justify-items: start;
+        align-items: start;
+    }
+    .container2{
+        display: grid;
+        grid-template-columns: 1fr;
+        float: left;
+        }
+        .itemA{
+        background-color: black;
+        color: white;
+        max-width: 400px;
+        height: 100px;
+        justify-items: start;
+        align-items: start;
+        }
+        .itemB{
+            background-color: black;
+            color: white;
+            max-width: 400px;
+            height: 100px;
+            justify-items: start;
+            align-items: start;
+        }  
+        .container3{
+            display: grid;
+            grid-template-columns: 1fr;
+            float: left;
+            }
+            .item22{
+                border: 1px solid; 
+                max-width: auto;
+                height: 100px;  
+                align-self: center;
+                justify-items: start;
+                align-items: start;
+            }     
+}
