@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="socorro.js" defer></script>
+    <title>PLANNER</title>
 </head>
 <body>
-    
+    <section class=inputTarefas>
+        <label for="novaTarefa"> Nova Tarefa:</label>
+        <input type="text" name="novaTarefa" id="novaTarefa">
+        <select name="diaDaSemana" id="diaDaSemana">
+            <option value="segunda">Segunda-Feira</option>
+            <option value="terca">Terça-Feira</option>
+            <option value="quarta">Quarta-Feira</option>
+            <option value="quinta">Quinta-Feira</option>
+            <option value="sexta">Sexta-Feira</option>
+            <option value="sabado">Sábado</option>
+            <option value="domingo">Domingo</option>
+        </select>
+        <button onclick="enviar()">INCLUIR</button>
+    </section>
+    <hr>
+    <div class=containerDias>
+    <div id="segunda"><h4>SEGUNDA-FEIRA</h4></div>
+
+    <div  id="terça"><h4>TERÇA-FEIRA</h4></div>
+
+    <div  id="quarta"><h4>QUARTA-FEIRA</h4></div>
+
+    <div  id="quinta"><h4>QUINTA-FEIRA</h4></div>
+
+    <div  id="sexta"><h4>SEXTA-FEIRA</h4></div>
+
+    <div  id="sabado"><h4>SÁBADO</h4></div>
+
+    <div  id="domingo"><h4>DOMINGO</h4></div>
+
+</div>
 </body>
 </html>
