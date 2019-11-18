@@ -1,0 +1,210 @@
+/*ESTILO GLOBAL*/
+*{
+    padding:0;
+    margin:0;
+
+}
+a{
+    font-family: 'Quattrocento', serif;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline; 
+
+}
+/*ESTILO CABEÇALHO*/
+header{
+    font-family: 'Merriweather', serif;
+    letter-spacing: 3px;
+    font-size: 15px;
+    background-color: transparent;
+    padding-bottom: 8px;
+    padding-top: 10px;
+    overflow: hidden;
+
+}
+#logoheader{
+    margin-left: 50px;
+}
+.entrar{
+    display:block; /*!importante*/
+    float: right; /*!importante*/
+    padding: 15px;
+    font-size: 15px;
+    background-color: #d6bbab;
+    border-radius: 5px;
+    border: none;
+    color: floralwhite;
+    border-radius: 50px;
+    margin-right: 50px;
+}
+.entrar:hover{
+    background-color: #B8A8A0;
+}
+.cabecalho{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.mensagem{
+    padding-top: 20px;
+    padding-bottom: 20px ;
+    background-color: #9D8C86;
+    text-align: center;
+}
+/*ESTILO GLOBAL PARAGRAFO*/
+p{ 
+    font-family: 'Quattrocento', serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    color: white;
+    text-shadow: 1px 1px 0 grey;
+}
+#patencao:hover{
+    color:black;
+}
+form{
+display: inline-block; /*!importante faz o botão ficar dentro do input*/
+position: relative; /*!importante faz o botão ficar dentro do input*/
+}
+input{
+    text-align: left;
+    padding: 12px 40px 12px 20px;
+    font-size: 25px;
+    border-radius: 40px;
+    border: 1px solid #755e50;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    outline:none;
+}
+.submit{
+    top: 0;
+    right: -50px;
+    position:absolute; /*!importante faz o botão ficar dentro do input*/
+    padding: 12px  12px 15px;
+    font-size: 25px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 3px solid #5a321b;
+    color: #5a321b;
+    border-radius: 50px;
+    margin-right: 50px;
+    outline:none;
+}
+.submit:hover{
+    border: 3px solid #d08255;
+    color:#d08255;
+}
+.busca{
+    margin-top:10px;    
+}
+.buscacorreio{  
+font-size: 20px;
+font-family: 'Quattrocento', serif; 
+color:#5a321b;
+}
+/*ESTILO APRESENTAÇÃO*/
+.apresentacao{
+    display:flex;
+    margin: 0 auto;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom:50px; 
+    }
+#mercado{
+    width: 400px;  
+    font-size: 17px;
+    font-family: 'Quattrocento', serif;  
+}  
+#produtos{
+    width: 400px;
+    font-size: 17px;
+    font-family: 'Quattrocento', serif;
+}  
+#pague{
+    width: 400px; 
+    font-size: 17px;
+    font-family: 'Quattrocento', serif;
+
+}
+/*ESTILO GLOBAL TITULO*/
+h4{
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    color: #704E3B;
+    padding-bottom: 10px;
+}
+h3{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: #704E3B;
+    padding-bottom: 10px; 
+}
+/*ESTILO FAQ*/
+.faq{   
+display:flex;
+margin: 0 auto;
+flex-wrap: wrap;
+background-color: #9D8C86;
+justify-content:space-evenly;
+  
+}
+.imgfaq{
+ background-image: url('https://i.ibb.co/FJKM1tj/imgfaq.png');
+ width: 400px;
+ height: 445px;
+ background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+ left: -30px;
+}
+.credimg{
+position: absolute;
+bottom: 0;
+font-size: 8px;
+color: #ffffff;
+letter-spacing: 2px; 
+}
+.conteinerFAQ{
+width: 500px;
+text-align: justify;
+}
+/* CONTATO */
+.contato{
+display: flex;
+justify-content: space-evenly;
+flex-wrap:wrap;
+padding-top: 20px; 
+padding-bottom: 20px;
+}
+#contatogeral{
+    width: 400px; 
+    font-size: 17px;
+    font-family: 'Quattrocento', serif;
+}
+#seguranca{
+    color: #704E3B;
+    opacity: 90%;
+    font-size: 30px;
+    font-family: 'Quattrocento', serif; 
+}
+
+/*FOOTER*/
+footer{
+bottom: 0;
+font-size: 16px;
+ text-align: center;
+background-color: #704E3B;
+font-family: 'VT323', monospace;
+}
+/*modelo responsivo*/
+
+@media only screen and (max-width: 667px){
+.imgfaq{
+   width: 100%;
+   justify-content: center;
+   margin-bottom: 50px;
+}
+}
