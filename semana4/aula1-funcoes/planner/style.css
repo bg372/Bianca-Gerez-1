@@ -1,0 +1,46 @@
+.containerDias{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding-left: 30px;
+background-color: thistle;
+letter-spacing: 2px;
+}
+h4{
+    color:black;
+    font-size: 15px;
+}
+body{
+background-color: thistle;
+}
+div{
+        min-width: 190px;
+        font-size: 20px;  
+        color: blue;
+        text-align: center;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.inputTarefas{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: plum;
+    text-shadow: 1px 1px white;
+}
+button{
+    padding:3px;
+    background-color: purple;
+    color: white;
+    text-shadow: 1px 1px white;
+    border: 2px solid purple;
+}
+input{
+    padding:3px;
+}
+#diaDaSemana{
+    padding:3px;
+}
