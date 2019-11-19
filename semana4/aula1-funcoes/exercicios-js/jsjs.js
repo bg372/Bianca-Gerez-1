@@ -14,36 +14,30 @@
 
 //a) `booleano1 && booleano2 && !booleano4`
 
-FALSE
+//FALSE
 
 //b) `(booleano1 && booleano2) || !booleano3`
 
-FALSE
+//FALSE
 
 //c)  `(booleano2 || booleano3) && (booleano4 || booleano1)`
 
-TRUE                             
+//TRUE                             
 
 //d) `!(booleano2 && booleano3) || !(booleano1 && booleano3)
 
-FALSE
+//FALSE
 
 //e) `!(booleano1) && !(booleano3) || (!booleano4 && booleano3 && booleano3)
-FALSE
+//FALSE
 
-4. Escreva uma **função não nomeada** que faça um `alert("Hello Future4");`. Em seguida, invoque essa função.
+//4. Escreva uma **função não nomeada** que faça um `alert("Hello Future4");`. Em seguida, invoque essa função.
 
-let variavel = function(mensagem){
-    mensagem = alert("Hello Future4")
-}
+//let variavel = function(mensagem){
+  //  mensagem = alert("Hello Future4")
+//}
 
-variavel()
+//variavel()
 
-5. Escreva uma função que receba um `array` de números e 
-imprima na tela o segundo maior e o segundo menor número. Em seguida, invoque essa função.
-
-
-
-
-
-
+//5. Escreva uma função que receba um `array` de números e 
+//imprima na tela o segundo maior e o segundo menor número. Em seguida, invoque essa função//
