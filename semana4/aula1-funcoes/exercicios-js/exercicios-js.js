@@ -5,12 +5,16 @@
 
 //2.  Cite 3 maneiras de se percorrer/iterar uma lista. Faça um programa para exemplificar.
 
-//const booleano1 = true
-//const booleano2 = false
-//const booleano3 = !booleano2 / TRUE
-//onst booleano4 = !booleano3  / FALSE
+//R: Podemos utilizar while, for e for of.
 
-/**Sem rodar nenhum código**, diga quais são os valores das expressões lógicas abaixo:
+//const array = [1,2,3,4]
+
+//for (let i = 0; i < 4; i++) {
+//const element = array [i]
+//console.log(element)
+//}
+
+//**Sem rodar nenhum código**, diga quais são os valores das expressões lógicas abaixo:
 
 //a) `booleano1 && booleano2 && !booleano4`
 
@@ -33,11 +37,18 @@
 
 //4. Escreva uma **função não nomeada** que faça um `alert("Hello Future4");`. Em seguida, invoque essa função.
 
-//let variavel = function(mensagem){
-  //  mensagem = alert("Hello Future4")
+//let variavel = function () {
+ // alert("Hello Future4")
 //}
+//const resultado = variavel(alert)
 
-//variavel()
+//console.log(resultado)
 
 //5. Escreva uma função que receba um `array` de números e 
-//imprima na tela o segundo maior e o segundo menor número. Em seguida, invoque essa função//
+//imprima na tela o segundo maior e o segundo menor número. Em seguida, invoque essa função
+
+// let array = [1,2,3,4]
+
+
+
+
