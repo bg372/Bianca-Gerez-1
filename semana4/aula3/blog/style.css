@@ -1,9 +1,32 @@
 *{
     padding: 0;
     margin: 0;
+    background: lightblue;
+}
+header{
+    background: pink;
+    color: rebeccapurple;
+    font-size: 30px;
+    font-family: 'Calistoga', cursive;
+    text-align: center;
+}
+main{
+    display:flex;
+    justify-content: space-evenly;
+    background: lightblue;
+}
+h1{
+    display:block;
+    color: rebeccapurple;
+    font-size: 27px;
+    font-family: 'Calistoga', cursive;  
 }
 section{
-    text-align: center;
+    display:flex;
+    width: 500px;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 label{
     font-size:20px;
@@ -21,11 +44,13 @@ input[type=text], select {
 }
 button{
     background-color: transparent ;
-    color: pink;
+    color: rebeccapurple;
     padding: 14px 20px;
     margin: 8px 0;
-    border: 3px solid pink;
+    border: 3px solid rebeccapurple;
     border-radius: 4px;
+    text-align: center;
+    font-family: 'Calistoga', cursive;  
 }
 textarea{
     text-align: justify;
@@ -39,6 +64,6 @@ textarea{
     box-sizing: border-box;
     background: white;
 }
-main{
+#post{
     text-align: center;
 }
