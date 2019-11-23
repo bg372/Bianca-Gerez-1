@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section{
+    text-align: center;
+}
+label{
+    font-size:20px;
+}
+input[type=text], select {
+    text-align: center;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: white;
+}
+button{
+    background-color: transparent ;
+    color: pink;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 3px solid pink;
+    border-radius: 4px;
+}
+textarea{
+    text-align: justify;
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: white;
+}
+main{
+    text-align: center;
+}
